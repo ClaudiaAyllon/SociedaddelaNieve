@@ -1,0 +1,189 @@
+<style>
+    body {
+    font-family:Arial, sans-serif;
+    font-size: 20px; 
+    color: #FFFFFF;
+    BACKGROUND-COLOR:#28408A;
+    }       
+       
+    header {
+      background-image: url(assets/encabezado.jpg);
+      padding: 20px;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: 100% 100%;
+      text-align: center;
+      color: #FFFFFF;
+      font-family: Arial, sans-serif;
+      font-size: 30px;
+    }
+    .menu{
+        padding: 20px;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+        text-align: center;
+        color: #FFFFFF;
+        font-family: Arial, sans-serif;
+        font-size: 17px;
+    }
+    .logo {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100px;
+        height: auto; 
+        margin: 20px;
+        padding: 10px;
+    }
+    a:link {
+        color: #FFFFFF; 
+   }
+   a:visited {
+    color: #A26EB0; 
+   }
+   a:hover {
+    color: #CE4492; 
+   }
+   a:active {
+    color: #A31FC4; 
+   }
+   
+    nav, footer {
+      background-color: #333333;
+      padding: 20px;
+    }
+
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    nav ul li {
+      display: inline;
+      margin-right: 10px;
+      text-align: center;
+    }
+
+    nav ul li a {
+      color: #FFFFFF;
+      text-decoration: none;
+    }
+
+    th, td {
+        padding: 15px;
+      }
+
+    .menu ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+    }
+    article {
+      background-color: #839DEC;
+      padding: 20px;
+      margin-bottom: 20px;
+    }
+
+    .filter {
+      margin-bottom: 20px;
+    }
+
+    .filter input[type="checkbox"] {
+      margin-right: 10px;
+    }
+
+    .main-content {
+      margin: 20px;
+      padding: 10px;
+    }
+    .enlace-boton {
+        font-family: verdana, arial, sans-serif;
+        font-size: 15pt;
+        font-weight: bold;
+        padding: 6px;
+        background-color: #0d1742;
+        color: #FFFFFF;
+        text-decoration: none;
+       }
+    .enlace-boton:link,
+    .enlace-boton:visited {
+        border-top: 1px solid #5c65bb;
+        border-bottom: 2px solid #574de4;
+        border-left: 1px solid #9190e7;
+        border-right: 2px solid #7598e4;
+       }
+       
+    .enlace-boton:hover {
+        border-bottom: 1px solid #7a6bcc;
+        border-top: 2px solid #5150be;
+        border-right: 1px solid #8b73c2;
+        border-left: 2px solid #5c46bd;
+       }              
+    
+    /* Estilos básicos para la galería */
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+   }
+   
+   /* Estilos para las cajas que contienen las imágenes */
+   .box {
+    flex: 1 0 200px; /* Ajusta el tamaño mínimo de cada caja */
+    margin-bottom: 10px;
+   }
+   
+   /* Estilos para las imágenes dentro de las cajas */
+   .box img {
+    width: 100%;
+    height: auto;
+    object-fit: cover; /* Mantiene el aspecto de la imagen mientras se ajusta al tamaño de la caja */
+   }
+   
+   /* Hacer la galería responsiva */
+   @media (max-width: 600px) {
+    .box {
+       flex: 1 0 100%; /* En pantallas pequeñas, cada caja ocupará el ancho completo */
+    }
+   }
+   
+   /* Efecto de hover para las imágenes */
+   .box:hover img {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+   }
+   
+   /* Asegurar que las imágenes sean responsivas y de alta calidad para dispositivos móviles */
+   @media (max-width: 768px) {
+    .box img {
+       width: 100%;
+       height: auto;
+    }
+   }
+   
+                            
+    .lema { 
+        font-size: 30px;
+        font-family: Arial;
+        display: grid;
+        width: 100vw;
+        height: 100vh;
+        justify-items: center;
+        align-items: center;
+    }
+    .footer {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    }
+    .footer-content{
+    font-size: 16px;
+    font-family: "Arial";
+    color: #FFFFFF;
+    text-align: center; 
+    }
+    
+</style>
